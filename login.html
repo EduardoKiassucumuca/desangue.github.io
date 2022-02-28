@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jumbotron.css">
+</head>
+
+<body style="background-color: #f8f9fa!important">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #cccccc00;border-color: #cccccc00;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="#" style="color: red;font-size: 20px;text-align: center;position:absolute;left: 30%;">Dê Sangue</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" style="left: 50px;">
+                <ul class="nav navbar-nav navbar-right" style="color: white;">
+                    <li class="active"><a href="index.php" style="font-size: 23px;">Início</a></li>
+                    <li><a class="nav-link" href="#" style="font-size: 18px;">Sobre</a></li>
+                    <li><a class="nav-link" href="necessidades.php" style="font-size: 18px;">Necessidades</a></li>
+                    <li><a class="nav-link" href="campanhas.php" style="font-size: 18px;">Campanhas</a></li>
+                    <li> <a class="nav-link" href="login.html" style="font-size: 18px;">Entrar</a></li>
+
+                </ul>
+            </div>
+            <!--/.navbar-collapse -->
+        </div>
+    </nav>
+    <section style="margin-top: 60; ">
+        <div style="background: #3d0305; padding-top: 28px; padding-bottom: 28px;" class="jumbotron">
+            <div style="text-align: center;" class="container">
+                <div id="">
+                    <h3 style="color:white">BEM-VINDO | ENTRE COM OS SEUS DADOS</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container cont-portal" style="border-radius: 4px;">
+            <div class="row">
+                <div class="col-sm-6 col-md-6" style="font-size: 20px; position: absolute; left: 26%; background-color: white; border: 1px solid #ddd; border-radius: 8px;">
+                    <h2 style="text-align: center;">Login</h2>
+                    <div class="linha-horizontal" style="border-bottom: 1px solid red; width: 100%;margin-bottom: 5%;"></div>
+
+
+                    <form class="form" action="logar.php" method="POST">
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Digite o seu e-mail..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Senha</label>
+                            <input type="password" class="form-control" name="senha" placeholder="Digite a sua senha..." required>
+                        </div>
+
+                        <br>
+                        <button class="btn btn-default btn-lg" style="border: 1px solid #d9534f; color:#d9534f;" type="submit">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

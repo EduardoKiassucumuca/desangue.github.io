@@ -1,0 +1,82 @@
+body{
+	background-color: #f7f7f9;
+}
+.list{
+
+}
+.list-group{
+	margin-top:3%;
+	margin-left:2%;
+	    max-width: 320px;
+		height:600px;
+}
+.list-group-item{
+	color:black;
+	
+}
+.panel-default {
+	margin-top:3%;
+    border-color: #ddd;
+	width:323px;
+	
+	
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+}
+.panel-profile .panel-heading {
+    height: 160px;
+    background-size: cover;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+bootstrap.min.css:5
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-body {
+    padding: 25px;
+}
+bootstrap.min.css:5
+.text-center {
+    text-align: center;
+}
+.panel-profile-img {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+bootstrap.min.css:5
+img {
+    vertical-align: middle;
+}
+.template-index h5 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+bootstrap.min.css:5
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+
+
+
